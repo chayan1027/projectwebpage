@@ -70,6 +70,7 @@
     <Content Include="completion.aspx" />
     <Content Include="Global.asax" />
     <Content Include="loginpage.aspx" />
+    <Content Include="Loginsuccesfull.aspx" />
     <Content Include="Registration page.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -90,6 +91,13 @@
     </Compile>
     <Compile Include="loginpage.aspx.designer.cs">
       <DependentUpon>loginpage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Loginsuccesfull.aspx.cs">
+      <DependentUpon>Loginsuccesfull.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Loginsuccesfull.aspx.designer.cs">
+      <DependentUpon>Loginsuccesfull.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Registration page.aspx.cs">

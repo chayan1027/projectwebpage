@@ -55,17 +55,17 @@
         <br />
         <asp:Label ID="Label9" runat="server" Font-Bold="True" Font-Size="Large" ForeColor="Black" Text="Password :"></asp:Label>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:TextBox ID="TextBox6" runat="server" BackColor="#64EEEB" BorderColor="#000066" BorderStyle="Solid" ForeColor="Black" Height="19px" Width="274px"></asp:TextBox>
+        <asp:TextBox ID="TextBox6" runat="server" BackColor="#64EEEB" BorderColor="#000066" BorderStyle="Solid" ForeColor="Black" Height="19px" Width="274px" TextMode="Password"></asp:TextBox>
         <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ControlToValidate="TextBox6" ErrorMessage="Field cannot be blank" ForeColor="#FF3300"></asp:RequiredFieldValidator>
         <br />
         <br />
         <asp:Label ID="Label10" runat="server" Font-Bold="True" Font-Size="Large" ForeColor="Black" Text="Confirm Password:"></asp:Label>
-        <asp:TextBox ID="TextBox7" runat="server" BackColor="#64EEEB" BorderColor="#000066" BorderStyle="Solid" ForeColor="Black" Height="19px" Width="274px"></asp:TextBox>
+        <asp:TextBox ID="TextBox7" runat="server" BackColor="#64EEEB" BorderColor="#000066" BorderStyle="Solid" ForeColor="Black" Height="19px" Width="274px" TextMode="Password"></asp:TextBox>
         <asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" ControlToValidate="TextBox7" ErrorMessage="Field cannot be blank" ForeColor="#FF3300"></asp:RequiredFieldValidator>
         <br />
         <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:HyperLink ID="HyperLink1" runat="server" BackColor="#33CCFF" BorderStyle="Outset" Font-Bold="True" ForeColor="Black" Height="27px" NavigateUrl="~/completion.aspx" Width="88px">Submit</asp:HyperLink>
+        <asp:Button ID="Button2" runat="server" BackColor="#0066FF" Font-Bold="True" Font-Size="Small" ForeColor="White" Text="Submit" OnClick="Button1_Click" />
         <br />
         <br />
     </form>
